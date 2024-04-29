@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.post("/register", (req, res) => {
-    res.send("POST response");
+    res.send("standard POST response");
 });
 
 app.get("/register", (req, res) => {
