@@ -7,7 +7,7 @@ app.post("/register", (req, res) => {
 });
 
 app.get("/register", (req, res) => {
-    res.send("GET response");
+    res.send("standard GET response");
 });
 
 app.listen(port, () => {
