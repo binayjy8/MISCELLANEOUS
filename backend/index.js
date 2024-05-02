@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.post("/register", (req, res) => {
     let {user, password} = req.body;
-    res.send(`standard POST response. welcome ${user}`);
+    res.send(`standard POST response. welcome ${user, password}`);
 });
 
 app.get("/register", (req, res) => {
