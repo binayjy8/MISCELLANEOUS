@@ -8,7 +8,7 @@ app.post("/register", (req, res) => {
 
 app.get("/register", (req, res) => {
     let {user, password} = req.ruery;
-    res.send("standard GET response");
+    res.send(`standard GET response. welcome ${user}`);
 });
 
 app.listen(port, () => {
