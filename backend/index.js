@@ -6,6 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.jason());
 
 app.post("/register", (req, res) => {
+    let {user, password} = req.body;
     res.send("standard POST response");
 });
 
