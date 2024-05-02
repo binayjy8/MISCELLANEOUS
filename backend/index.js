@@ -7,7 +7,7 @@ app.post("/register", (req, res) => {
 });
 
 app.get("/register", (req, res) => {
-    let {user, password} = req.ruery;
+    let {user, password} = req.query;
     res.send(`standard GET response. welcome ${user}`);
 });
 
