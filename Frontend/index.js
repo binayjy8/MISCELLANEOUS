@@ -19,3 +19,4 @@ class Person {
 }
 
 let p1 = new Person ("Gillims", 69);
+let p2 = new Person ("Bloom", 12);
