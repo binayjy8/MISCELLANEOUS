@@ -31,11 +31,20 @@ class Person {
     }
 }
 
-class Student {
+class Student extends Person {
     constructor(name, age, marks) {
+        super(name, age);
         this.marks = marks;
     }
-   
 }
+
+
+class Teacher extends Person {
+    constructor(name, age, marks) {
+        super(name, age);
+        this.marks = marks;
+    }
+}
+
 
 s1 = new Student ("ev", 23, 98);
